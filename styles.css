@@ -1,0 +1,473 @@
+*
+{
+    font-family: Arial;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.navbar
+{
+    height: 70px;
+    background-color: #0F1111;
+    color:white; 
+    display: flex;
+    align-items: center;
+
+}
+.row
+{
+    display: flex;
+ align-items: center;
+ gap:35px;
+justify-content: space-evenly;
+
+}
+
+.logo
+{
+    margin-left: 10px;
+    background-image: url(images/amazon_logo.png);
+    height: 66px;
+    width: 130px;
+    background-size: cover;
+}
+
+.border
+{
+    border: 1.5px solid transparent; 
+}
+
+.border:hover
+{
+ border: 1.5px solid white;
+}
+.address1
+{
+    color:#CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 22px;
+
+}
+.address2
+{
+font-size: 1rem;
+}
+
+.addressicon{
+    display: flex;
+ gap: 2px;
+}
+
+.navSearch
+{
+display: flex;
+border-radius: 5px;
+width: 620px;
+height: 40px;
+border:none;
+
+}
+
+.searchSelect
+{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width:50px;
+    background-color: #f3fef3;
+    text-align: center;
+    border:none
+}
+.search-input
+{
+    width:100%;
+    border:none;
+    font-size: 1rem;
+}
+.searchIcon
+{
+width:45px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.2rem;
+background-color: #FEBD69;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+color:#0F1111;
+}
+
+/*box4*/
+
+span
+{
+    font-size: 0.75rem;
+}
+
+.account-list
+{
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.navSearch:hover
+{
+    outline:2px solid orange;
+}
+
+.nav-cart
+{
+    display: flex;
+    align-items: center;
+    height:50px;
+}
+.fa-cart-shopping
+{
+    font-size: 25px;
+    color:#FEBD69;
+}
+
+.cart-list
+{
+  font-size: 0.8rem;
+  font-weight: 700;
+ }
+ .nav-lang
+ {
+    display: flex;
+ align-items: center;
+    gap:4px;
+    height: 50px;
+ }
+ .en-text
+ {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+
+.nav-list{
+  display:flex;
+  list-style:none;
+  gap:20px;
+  padding:0;
+  margin:0;
+  
+}
+
+.nav-list li{
+  cursor:pointer;
+  height: 35px;
+}
+.panel
+{   padding-top: 10px;
+    padding-left: 4px;
+    display: flex;
+    background-color: #232F3E;
+    height: 45px;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+
+
+.panel-list
+{
+    width:90%;
+}
+
+
+
+.hero-section
+{
+background-image: url(images/hero_image.jpg);
+height: 380px;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+
+}
+
+.hero-msg
+{
+    background-color: white;
+    color: black;
+   height: 40px;
+      display: flex;
+ align-items: center;
+ justify-content: center;
+   font-size: 0.85rem;
+      width: 80%;
+   margin-bottom: 20px;
+
+}
+
+.hero-msg a
+{
+color: #007185;
+  cursor:pointer;
+
+}
+
+
+
+ .shop-section
+ {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+ 
+}
+
+.box
+{
+    border: 2px solid green;
+    height: 360px;
+    width: 22%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    border: none;
+    margin-top: 15px;
+}
+
+
+.box-img-container
+{
+    height: 280px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-size: cover;
+}
+
+.deal-section{
+  background:#f3f3f3;
+  padding:15px;
+  font-family:Arial, sans-serif;
+}
+
+.deal-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:10px;
+}
+
+.deal-header h2{
+  font-size:22px;
+  margin:0;
+}
+
+.deal-header a{
+  text-decoration:none;
+  color:#007185;
+  font-size:14px;
+}
+
+.deal-products{
+  display:flex;
+  gap:15px;
+  overflow-x:auto;
+}
+
+.product{
+  min-width:180px;
+  background:white;
+  padding:10px;
+}
+
+.product img{
+  width:100%;
+  height:160px;
+  object-fit:cover;
+}
+
+.live-section{
+  background:#f3f3f3;
+  padding:15px;
+  font-family:Arial;
+}
+
+.live-header{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:10px;
+}
+
+.live-header a{
+  color:#007185;
+  text-decoration:none;
+}
+
+.live-container{
+  display:flex;
+  gap:15px;
+}
+
+/* VIDEO */
+.live-video{
+  position:relative;
+  width:320px;
+  background:white;
+}
+
+.live-video img{
+  width:100%;
+  display:block;
+}
+
+.badge{
+  position:absolute;
+  top:10px;
+  left:10px;
+  background:#333;
+  color:white;
+  padding:4px 8px;
+  font-size:12px;
+  border-radius:4px;
+}
+
+.watch-btn{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  padding:8px 14px;
+  background:rgba(0,0,0,0.6);
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+
+/* PRODUCTS */
+.live-products{
+  display:flex;
+  gap:15px;
+  overflow-x:auto;
+}
+
+.live-card{
+  min-width:200px;
+  background:white;
+  padding:10px;
+}
+
+.live-card img{
+  width:100%;
+  height:160px;
+  object-fit:contain;
+}
+
+.title{
+  font-size:14px;
+}
+
+.discount{
+  background:#cc0c39;
+  color:white;
+  padding:2px 6px;
+  font-size:12px;
+}
+
+.price{
+  font-weight:bold;
+}
+
+
+.footer{
+background:#232F3E;
+color:white;
+font-family:Arial;
+}
+
+.signin-box{
+background:#f3f3f3;
+color:black;
+text-align:center;
+padding:30px;
+}
+
+.signin-btn{
+background:#FFD814;
+border:none;
+padding:10px 25px;
+border-radius:20px;
+margin:10px 0;
+cursor:pointer;
+}
+
+.backtop{
+background:#37475A;
+text-align:center;
+padding:15px;
+cursor:pointer;
+}
+
+.footer-links{
+display:flex;
+justify-content:space-evenly;
+padding:40px;
+flex-wrap:wrap;
+}
+
+.col{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.col a{
+color:#ddd;
+text-decoration:none;
+font-size:14px;
+}
+
+.col h4{
+margin-bottom:10px;
+}
+
+.footer-bottom{
+border-top:1px solid #3a4553;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:20px;
+padding:20px;
+}
+
+.bottom-btns button{
+background:transparent;
+color:white;
+border:1px solid #888;
+padding:5px 15px;
+cursor:pointer;
+}
+
+
+
+
+
+/*my extra univeral classes*/
+
+.font-big
+{
+    font-size: 0.9rem;
+}
+
+.heading-text
+{
+ font-size: 1.1rem;
+margin-bottom: 10px;
+margin-left: 1rem;
+ 
+}
+
+
+.box-text p
+{
+    color: #007185;
+  cursor:pointer;
+  margin-left: 1rem;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
